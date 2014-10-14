@@ -1,11 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-html, body {
-    height: 100%;
+body {
+    text-align: center;
 }
 
-body (
-	background-color: red;
-	)
+}
+
+h1 {
+	color: blue;
+	}
+

@@ -1,43 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" type="text/css" href="./bower_components/normalize.css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="./bower_components/typeplate-starter-kit/css/typeplate.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script>
-    $(function() {
-        alert('Set it and Forget It')
-    });
-    </script>
-    <title></title>
+    
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">   
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 
 <body>
-    <div>
-<script>
-var githubUsername = "mb289";
-var url = "https://api.github.com/users/"+githubUsername;
-$.get(url).then(function(data){
-    drawProfile(data);
-})
-function drawProfile(data) {
-    document.body.innerHTML = [
-        '<h1>',
-        data.name,
-        '</h1>',
-        '<h2> blog:',
-        data.blog,
-        '</h2>'
-    ].join('')
-}
-</script>
-
-    </div>
-    
+    
+    
 
 
-<script type="text/javascript" src="./javascript/main.js"></script>
+    <script type="text/javascript" src="./javascript/main.js"></script>
 </body>
 
 </html>
